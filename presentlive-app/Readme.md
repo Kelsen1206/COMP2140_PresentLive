@@ -20,6 +20,17 @@ Everything created by the audience flows back to the presenter: the names, the p
 
 ## Setup
 
+> **Marking the submitted zip? Use the quick start.** The zip already contains a configured `.env`, and the API entities and sample data already exist on the account it points to. You only need two commands, from inside the `presentlive-app` folder:
+>
+> ```bash
+> npm install
+> npm run dev
+> ```
+>
+> Then open <http://localhost:5173> and go to the [Testing Guide](#testing-guide). **Skip steps 3–5 below**, and do not run `cp .env.example .env`: it would replace the working `.env` with blank values.
+>
+> Steps 1–6 are the full setup for a fresh copy with no `.env`, such as a clone of the source repository.
+
 ### 1. Requirements
 
 - Node.js 20.19 or newer (developed on 22.14) and npm 10.
@@ -291,6 +302,8 @@ AI is also used *at runtime* as an assessed feature of the application itself (s
 ---
 
 ## References
+
+Anthropic. (2025). Claude. Claude.Ai. https://claude.ai/new
 
 Meta Platforms. (2025). *React documentation*. https://react.dev/
 
